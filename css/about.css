@@ -119,13 +119,20 @@ h1.pl_name {
     padding: 10px 0px;
 }
 
+div.cl_box {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+}
+
 a.close_1 , a.close_2 , a.close_3 , a.close_4 {
     text-decoration: none;
     font-size: 30px;
     border: none;
     outline: none;
     position: absolute;
-    top: 2px;
+    top: 5px;
     right: 12px;
     color: #ffffff;
 }
