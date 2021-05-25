@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #e6f2ff;
+}
+
+/* header */
+header.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0066ff;
+    margin: 5px 15px;
+    padding: 10px 2rem;
+    border: none;
+    outline: none;
+    border-radius: 20rem;
+}
+
+h1.head {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+a.home {
+    font-size: 20px;
+    text-decoration: none;
+    color: #0066ff;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+a.home:focus , a.home:hover {
+    color: #000000;
+    box-shadow: 0px 0px 0px 4px rgba(0, 255, 255, 0.5);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(0, 255, 255, 0.5);
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 255, 255, 0.5);
+}
+
+/* Main */
+main.main_box {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+div.main {
+    margin-top: 13%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img.item {
+    width: 200px;
+    height: 200px   ;
+    margin: 15px;
+    border: 3px solid #0066ff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Project Lead , Marketing Head , Front End Developer , Backend Developer */
+article.pl_box , article.mh_box , article.fd_box , article.bd_box {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    display: none;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+}
+
+div.img_box {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f2ff;
+    position: relative;
+    animation-name: from_left;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier( 0, 0, 1, 1);
+    animation-iteration-count: 1;
+}
+
+div.info_box {
+    width: 50vw;
+    background-color: #0066ff;
+    color: #ffffff;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    animation-name: from_right;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier( 0, 0, 1, 1);
+    animation-iteration-count: 1;
+}
+
+h1.pl_name {
+    font-size: 35px;
+    padding: 10px 0px;
+}
+
+a.close_1 , a.close_2 , a.close_3 , a.close_4 {
+    text-decoration: none;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 2px;
+    right: 12px;
+    color: #ffffff;
+}
+
+h2.pl_role {
+    font-size: 28px;
+    padding: 10px 0px;
+}
+
+p.pl_info {
+    background-color: #e6f2ff;
+    color: #0066ff;
+    margin: 10px 0px;
+    padding: 10px 15px;
+    text-align: justify;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+@keyframes from_left {
+    
+    from {
+        left: -50vw;
+    }
+
+    to {
+        left: 0vw;
+    }
+
+}
+
+@keyframes from_right {
+
+    from {
+        right: -50vw;
+    }
+
+    to {
+        right: 0vw;
+    }
+
+}

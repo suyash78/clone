@@ -1,0 +1,47 @@
+@media only screen and (max-width: 500px) {
+
+    h1.head {
+        font-size: 25px;
+    }
+
+    a.home {
+        font-size: 18px;
+        right: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    article.pl_box , article.mh_box , article.fd_box , article.bd_box {
+        flex-direction: column;
+        position: fixed;
+    }
+
+    div.img_box {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    div.info_box {
+        width: auto;
+        height: 50vh;
+    }
+
+    a.close_1 , a.close_2 , a.close_3 , a.close_4 {
+        top: -250px;
+        color: #0066ff;
+    }
+
+}
+
+@media only screen and (max-width: 472px) {
+
+    div.main {
+        margin-top: 2%;
+        padding-bottom: 20px;
+    }
+
+}
+
+

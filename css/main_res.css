@@ -1,0 +1,78 @@
+@media only screen and (max-width: 900px) {
+
+    section.login_box {
+        margin-top: 25%;
+    }
+    
+    div.login {
+        width: 80%;
+    }
+
+    div.reg_main {
+        width: 80%;
+    }
+
+    div.sign {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    header.head_box {
+        padding: 10px 1rem;
+        margin: 5px 5px;
+    }
+
+    h1.head {
+        font-size: 25px;
+    }
+
+    a.about {
+        font-size: 18px;
+        right: 1rem;
+    }
+    
+    div.login_head {
+        font-size: 20px;
+    }
+
+    div.btn_box {
+        flex-direction: column;
+    }
+
+    button.btn {
+        width: 90%;
+    }
+
+    button.btn_2 {
+        margin-top: 15px;
+    }
+
+    a.reg {
+        display: block;
+        margin-top: 30px;
+    }
+
+    a.reg_2 {
+        margin-top: 13px;
+    }
+
+    div.sign_head {
+        font-size: 20px;
+    }
+
+    div.sign_btn_box {
+        flex-direction: column;
+    }
+
+    button.sign_btn {
+        width: 90%;
+    }
+
+    button.sign_btn_2 {
+        margin-top: 15px;
+    }
+
+}
