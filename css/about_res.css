@@ -41,7 +41,17 @@
         margin-top: 2%;
         padding-bottom: 20px;
     }
+    
+    a.close_1 , a.close_2 , a.close_3 , a.close_4 {
+        top: -80%;
+    }
 
 }
 
+@media only screen and (max-width: 360px) {
 
+    a.close_1 , a.close_2 , a.close_3 , a.close_4 {
+        top: -63%;
+    }
+
+}
